@@ -1,0 +1,103 @@
+@charset "utf-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap');
+
+* {
+	margin: 0;
+	padding: 0;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+	font-family: 'Noto Sans KR', sans-serif;
+}
+body {
+	background: linear-gradient(147deg, #FFE53B 0%, #2AAC49 74%);
+  	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+  	background-size: cover;
+    padding-top: 100px;
+    min-height: 100vh;
+}
+a {
+	text-decoration: none;
+	color: #000;
+}
+form {
+    width: 800px;
+    padding: 50px 30px;
+    margin: 100px auto;
+    border: 1px solid rgba(0,0,0,.2);
+    -moz-border-radius: 25px;
+    -webkit-border-radius: 25px;
+    border-radius: 25px;
+    -moz-background-clip: padding;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+    -webkit-box-shadow: 0px 14px 80px rgba(34, 35, 58, 0.2);
+    box-shadow: 0px 14px 80px rgba(34, 35, 58, 0.2);
+    background: #fff;
+    overflow: hidden; 
+}
+.input {
+	margin-bottom: 20px;
+}
+.input input, .input textarea {
+    display: block;
+    padding: 6px 12px;
+    font-size: 16px;
+    border: 1px solid #ced4da;
+    background-color: #fff;
+}
+.input textarea {
+	width: 100%;
+    resize: none;
+}
+.input__text input {
+	width: 100%;
+}
+.input__file {
+    position: relative;
+}
+.input__file .file-upload-input {
+	width: 100%;
+	color: rgb(117, 117, 117);
+}
+.input__file .file-upload-button {
+    content: 'Browse';
+    position: absolute;
+    z-index: 3;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    padding: 0 10px;
+    line-height: 36px;
+    background-color: #2AAC49;
+    border: 0;
+    color: #fff;
+}
+.input label {
+    display: block;
+    margin-bottom: 10px;
+    color: #000;
+    font-size: 16px;
+}
+.input__btn {
+	margin-top: 50px;
+	text-align: center;
+}
+.input__btn .btn {
+	cursor: pointer;
+	border: 0;
+	appearance: none;
+	display: inline-flex;
+    background-image: linear-gradient(147deg, #fe8a39 0%, #2AAC49 74%);
+    padding: 15px 35px;
+    border-radius: 50px;
+    color: #fff;
+    box-shadow: 0px 14px 80px rgba(0, 128, 0, 0.4);
+    text-decoration: none;
+    font-weight: 500;
+    justify-content: center;
+    text-align: center;
+    font-size: 16px;
+}
